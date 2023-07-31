@@ -28,7 +28,8 @@ victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ python3 manage.py
 # identifier that the database assigns to the group when it is created. In another environment, or on another computer, 
 # the appusers group can have a different ID and it wouldn’t make any difference on the object.
 
-ictoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ python3 manage.py dumpdata auth.User --pk 1 --indent 4 --natural-foreign
+victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ python3 manage.py dumpdata auth.User --pk 1 
+--indent 4 --natural-foreign
 [
 {
     "model": "auth.user",
