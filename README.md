@@ -24,3 +24,19 @@ victoralonsogarcia8@penguin:~/django_fixtures $ source venv/bin/activate
 victoralonsogarcia8@penguin:~/django_fixtures$ ls
 
 victoralonsogarcia8@penguin:~/django_fixtures$ pip install django
+
+# COMMANDS TO START MIGRATIONS
+
+# FIXTURES-PATH
+
+victoralonsogarcia8@penguin:~/django_fixtures$ django startproject django_fixtures
+
+victoralonsogarcia8@penguin:~/django_fixtures$ django-admin startproject django_fixtures
+
+victoralonsogarcia8@penguin:~/django_fixtures$ cd django_fixtures
+
+victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ ls
+
+django_fixtures  manage.py
+
+victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ python3 manage.py migrate
