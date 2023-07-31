@@ -10,3 +10,14 @@ Django steps:
 -How to use factories to create test fixtures for Django models in pytest 
 
 -How to create dependencies between test fixtures using the factory as fixture pattern
+
+# COMMANDS TO START THE PROJECT
+
+victoralonsogarcia8@penguin:~$ mkdir django_fixtures
+victoralonsogarcia8@penguin:~$ cd django_fixtures
+victoralonsogarcia8@penguin:~/django_fixtures$ source venv/bin/activate
+
+# COMMANDS TO START THE DJANGO TESTING-PROJECT
+
+victoralonsogarcia8@penguin:~/django_fixtures$ ls
+victoralonsogarcia8@penguin:~/django_fixtures$ pip install django
