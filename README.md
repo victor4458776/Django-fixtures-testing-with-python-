@@ -40,3 +40,21 @@ victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ ls
 django_fixtures  manage.py
 
 victoralonsogarcia8@penguin:~/django_fixtures/django_fixtures$ python3 manage.py migrate
+
+# MANAGE DJANGO DATA AND TESTS THE DATABASE
+
+Maintaining Django Fixtures:
+
+Django fixtures are great, but they also pose some challenges:
+
+Keeping fixtures updated: Django fixtures must contain all the required fields of the model. If you add a new field that is not nullable, you must update the fixtures. Otherwise, they will fail to load. Keeping Django fixtures updated can become a burden when you have lots of them.
+
+Maintaining dependencies between fixtures: Django fixtures that depend on other fixtures must be loaded together and in a particular order. Keeping up with fixtures as new test cases are added and old test cases are modified can be challenging.
+
+For these reasons, Django fixtures are not an ideal choice for models that change often. For example, it would be very difficult to maintain Django fixtures for models that are used to represent core objects in the app such as sales, orders, transactions, or reservations.
+
+On the other hand, Django fixtures are a great option for the following use cases:
+
+Constant data: This applies to models that rarely change, such as country codes and zip codes.
+
+Initial data: This applies to models that store your app’s lookup data, such as product categories, user groups, and user types.
