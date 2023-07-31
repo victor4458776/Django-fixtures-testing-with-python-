@@ -14,10 +14,13 @@ Django steps:
 # COMMANDS TO START THE PROJECT
 
 victoralonsogarcia8@penguin:~$ mkdir django_fixtures
+
 victoralonsogarcia8@penguin:~$ cd django_fixtures
-victoralonsogarcia8@penguin:~/django_fixtures$ source venv/bin/activate
+
+victoralonsogarcia8@penguin:~/django_fixtures $ source venv/bin/activate
 
 # COMMANDS TO START THE DJANGO TESTING-PROJECT
 
 victoralonsogarcia8@penguin:~/django_fixtures$ ls
+
 victoralonsogarcia8@penguin:~/django_fixtures$ pip install django
