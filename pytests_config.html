@@ -1,0 +1,32 @@
+victoralonsogarcia8@penguin:~/django_fixtures$ mkdir pytest.ini
+victoralonsogarcia8@penguin:~/django_fixtures$ ls
+django_fixtures  pytest.ini
+victoralonsogarcia8@penguin:~/django_fixtures$ cd pytest.ini
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ ls
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ nano
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ ls
+'Config File'
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ nano Config Filevictoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ nano 'Config File'
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ ls
+'Config File'   test.py
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ cd test.py
+-bash: cd: test.py: Not a directory
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ nano test.py
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ python3 test.py
+
+
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ ls
+'Config File'   test.py
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ nano test.py
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ pytest test.py
+========================== test session starts ===========================
+platform linux -- Python 3.9.2, pytest-7.4.0, pluggy-1.2.0
+rootdir: /home/victoralonsogarcia8/django_fixtures/pytest.ini
+plugins: django-4.5.2
+collected 1 item                                                         
+
+test.py .                                                          [100%]
+
+=========================== 1 passed in 0.11s ============================
+victoralonsogarcia8@penguin:~/django_fixtures/pytest.ini$ ls
+'Config File'   __pycache__   test.py
